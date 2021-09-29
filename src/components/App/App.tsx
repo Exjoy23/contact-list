@@ -1,8 +1,7 @@
 import React from 'react';
+import { MainPage } from '../pages/MainPage/MainPage';
 import './App.scss';
 
-function App(): JSX.Element {
-  return <div>Hello</div>;
-}
-
-export default App;
+export const App = (): JSX.Element => {
+  return <MainPage />;
+};

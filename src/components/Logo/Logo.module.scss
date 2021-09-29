@@ -1,0 +1,13 @@
+.link svg {
+  transition: fill 0.3s ease-out;
+}
+
+.link {
+  &:hover svg {
+    fill: var(--secondary);
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

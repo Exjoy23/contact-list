@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  border-top: 1px solid var(--primary);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 50px;
+}
+
+.list {
+  display: flex;
+  column-gap: 30px;
+
+  margin: 0;
+  padding: 0;
+  justify-self: flex-end;
+
+  list-style: none;
+}
+
+.link svg {
+  transition: fill 0.3s ease-out;
+}
+
+.link {
+  display: inline-block;
+
+  &:hover svg {
+    fill: var(--secondary);
+  }
+}

@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 1px solid var(--primary);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: min-content auto;
+
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 50px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  column-gap: 50px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.link {
+  transition: color 0.3s ease-out;
+
+  &:hover {
+    color: var(--primary-light);
+  }
+
+  &:active {
+    color: var(--secondary);
+  }
+}

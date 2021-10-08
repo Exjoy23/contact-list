@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  column-gap: 3px;
+}
+
+.button {
+  &_search {
+    background-image: url('./search.svg');
+  }
+
+  &_add {
+    background-image: url('./add.svg');
+  }
+}

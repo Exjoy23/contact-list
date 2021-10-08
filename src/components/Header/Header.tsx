@@ -4,8 +4,8 @@ import { Logo } from '../Logo/Logo';
 import styles from './Header.module.scss';
 
 const ITEMS = [
-  { name: 'Контакты', path: '/' },
-  { name: 'Войти', path: '/' },
+  { name: 'Контакты', path: '/contacts' },
+  { name: 'Войти', path: '/login' },
 ];
 
 export const Header = (): JSX.Element => {

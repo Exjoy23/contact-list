@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: center;
+
+  height: 30px;
+  column-gap: 3px;
+}
+
+.button {
+  &_edit {
+    background-image: url('./edit.svg');
+  }
+
+  &_remove {
+    background-image: url('./remove.svg');
+  }
+
+  &_complete {
+    background-image: url('./complete.svg');
+  }
+}

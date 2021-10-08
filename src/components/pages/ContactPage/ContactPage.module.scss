@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  padding: 20px 50px;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.inputs {
+  display: flex;
+  column-gap: 20%;
+
+  margin-bottom: 50px;
+}

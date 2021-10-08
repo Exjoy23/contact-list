@@ -1,5 +1,5 @@
 .link svg {
-  transition: fill 0.3s ease-out;
+  transition: fill 0.2s linear;
 }
 
 .link {
@@ -9,5 +9,11 @@
 
   &:active {
     opacity: 0.5;
+  }
+
+  &_active {
+    cursor: default;
+    user-select: none;
+    pointer-events: none;
   }
 }

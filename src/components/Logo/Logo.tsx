@@ -1,11 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { AppRoute } from '../../const';
 import styles from './Logo.module.scss';
 
 export const Logo = (): JSX.Element => {
   return (
     <div>
-      <NavLink className={styles.link} to="/">
+      <NavLink
+        className={styles.link}
+        to={AppRoute.MAIN}
+        isActive={(match, { pathname }): boolean =>
+          (match && pathname === AppRoute.MAIN) || false
+        }
+        activeClassName={styles.link_active}
+      >
         <svg
           width="85"
           height="71"

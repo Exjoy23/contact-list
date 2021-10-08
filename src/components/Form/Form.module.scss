@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  column-gap: 3px;
+}
+
+.button {
+  &_add {
+    background-image: url('./add.svg');
+  }
+
+  &_hide {
+    background-image: url('./hide.svg');
+  }
+}

@@ -1,0 +1,26 @@
+.button {
+  width: 30px;
+  height: 30px;
+
+  transition: background-color 0.2s linear;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover {
+    cursor: pointer;
+
+    background-color: var(--secondary);
+  }
+
+  &:focus {
+    outline-color: var(--secondary);
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
